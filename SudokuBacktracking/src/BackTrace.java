@@ -73,7 +73,7 @@ public class BackTrace {
 		}
 		
 		// Perform Heuristics of Randomization
-		//Collections.shuffle(values, new Random(System.nanoTime()));
+		// Collections.shuffle(values, new Random(System.nanoTime()));
 		mostConstrainedAndMostConstraining(ls, values);
 		
 		for (final SudokuVariable value : values) {
